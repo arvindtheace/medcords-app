@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { NgxGalleryModule } from 'ngx-gallery';
+import { NgxGalleryModule } from 'ngx-gallery-pinch/dist';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';

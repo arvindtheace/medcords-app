@@ -1,6 +1,6 @@
 import { Component , OnInit} from '@angular/core';
 import 'hammerjs';
-import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery';
+import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery-pinch/dist';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
 
       this.galleryOptions = [
           {
-              height: '300px',
+              height: '400px',
               fullWidth: true,
               thumbnailsColumns: 4,
               imageSwipe: true,
